@@ -19,7 +19,7 @@ public:
 
 protected:
 
-	GameObject(const string& name):kName(name){};
+	GameObject(const string& name):kName(name), count_(count_ + 1){};
 
 
 
