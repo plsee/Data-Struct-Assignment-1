@@ -13,7 +13,7 @@ public:
 
 	virtual void receiveDamage(const int& damage) = 0; //Pure Virtual Function
 
-	virtual const int getDurability();// Returns Durability_
+	const int getDurability();// Returns Durability_
 
 	//Destructor
 	virtual ~Item();

@@ -21,21 +21,21 @@ public:
 	virtual ~Dweller();
 
 
-	virtual const int getSPECIAL();
-	virtual const int getCurrentHealth();
-	virtual const int getCurrentRadDamage();
-	virtual const int getAttackDmg();
-	virtual void setPosition(const Vec2D& position);
-	virtual const Vec2D getPosition();
-	virtual void receiveHealthDamage(const int& health);
-	virtual void receiveRadDamage(const int& health);
-	virtual void receiveEquipmentDamage(const int& durability);
-	virtual void addStimpak(const int& stimpak);
-	virtual void addRadAway(const int& radiation);
-	virtual void useStimpak();
-	virtual void useRadAway();
-	virtual Outfit* assignOutfit(Outfit * outfit);
-	virtual Weapon* assignWeapon(Weapon* weapon);
+	const int getSPECIAL();
+	const int getCurrentHealth();
+	const int getCurrentRadDamage();
+	const int getAttackDmg();
+	void setPosition(const Vec2D& position);
+	const Vec2D getPosition();
+	void receiveHealthDamage(const int& health);
+	void receiveRadDamage(const int& health);
+	void receiveEquipmentDamage(const int& durability);
+	void addStimpak(const int& stimpak);
+	void addRadAway(const int& radiation);
+	void useStimpak();
+	void useRadAway();
+	Outfit* assignOutfit(Outfit* outfit);
+	Weapon* assignWeapon(Weapon* weapon);
 	bool isDead();
 
 

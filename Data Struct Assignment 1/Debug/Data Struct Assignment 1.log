@@ -1,15 +1,16 @@
-﻿Build started 12/11/2015 9:17:57 PM.
+﻿Build started 12/11/2015 9:30:21 PM.
      1>Project "C:\Users\155135S\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dweller.cpp Outfit.cpp Vec2D.cpp compileCheck.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dweller.cpp Outfit.cpp compileCheck.cpp main.cpp
          Outfit.cpp
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(37): error C2143: syntax error : missing ';' before '*'
-     1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(37): error C2433: 'Dweller::Outfit' : 'virtual' not permitted on data declarations
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(37): error C2061: syntax error : identifier 'Outfit'
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(37): warning C4183: 'assignOutfit': missing return type; assumed to be a member function returning 'int'
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(54): error C2143: syntax error : missing ';' before '*'
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+         Compiling...
          Dweller.cpp
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.cpp(50): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
      1>c:\users\155135s\desktop\data-struct-assignment-1\data struct assignment 1\dweller.cpp(142): warning C4552: '+' : operator has no effect; expected operator with side-effect
@@ -17,9 +18,8 @@
          Skipping... (no relevant changes detected)
          main.cpp
          compileCheck.cpp
-         Vec2D.cpp
      1>Done Building Project "C:\Users\155135S\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.79
+Time Elapsed 00:00:00.77

@@ -15,7 +15,7 @@ public:
 	virtual ~Outfit();
 
 
-	virtual const int getSPECIAL();
+	const int getSPECIAL();
 
 	virtual void receiveDamage(const int& damage);
 

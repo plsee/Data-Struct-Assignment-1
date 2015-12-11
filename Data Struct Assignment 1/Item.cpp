@@ -13,6 +13,12 @@ GameObject(name)
 
 }
 
+Item::~Item(){
+
+
+
+
+}
 
 const int Item::getDurability(){
 

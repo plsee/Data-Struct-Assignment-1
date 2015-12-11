@@ -177,8 +177,6 @@ Weapon* Dweller::assignWeapon(Weapon* weapon){
 
 	return oldWeapon;
 
-
-
 }
 
 

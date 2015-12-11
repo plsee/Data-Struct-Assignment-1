@@ -11,6 +11,12 @@ kName(name)
 
 }
 
+GameObject::~GameObject(){
+
+
+
+}
+
 
 string GameObject::getName(){
 
