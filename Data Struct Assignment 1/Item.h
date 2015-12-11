@@ -9,23 +9,26 @@ class Item : public GameObject
 
 public:
 
-	
-	virtual void receiveDamage(const int& damage) = 0;
+	//Methods
 
-	virtual const int getDurability() = 0;
+	virtual void receiveDamage(const int& damage) = 0; //Pure Virtual Function
+
+	virtual const int getDurability();// Returns Durability_
 
 	//Destructor
 	virtual ~Item();
 	
 	//Constructor
-	Item(const string& name, const int& durability) : durability_(durability), GameObject::GameObject(name){};
+	Item(const string& name = "", const int& durability = 0);
 
 
 
 protected:
 
 
-	int durability_;
+	//Variable
+
+	int durability_; //Durability
 
 
 

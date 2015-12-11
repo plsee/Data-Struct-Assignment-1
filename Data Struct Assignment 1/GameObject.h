@@ -10,26 +10,28 @@ class GameObject
 {
 public:
 
+	//Destructor
     virtual ~GameObject();
-	virtual string getName() = 0;
-	virtual int getCount() = 0;
+
+	string getName(); //Returns Name 
+	static int getCount(); //Return number of objects
 
 
 
 
 protected:
 
-	GameObject(const string& name):kName(name), count_(count_ + 1){};
+	//Constructor
+	GameObject(const string& name = "");
 
 
 
 
 private:
 
-	int count_;
-	const string kName;
+	static int count_;//Stores the amount of objects
 
-
+	const string kName; //Stores item name
 
 
 

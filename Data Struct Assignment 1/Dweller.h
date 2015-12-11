@@ -14,7 +14,7 @@ class Dweller :public GameObject{
 public:
 
 	//Constructor
-	Dweller(const string& name, const int& count);
+	Dweller(const string& name = "", const int& count = 0);
 
 
 	//Destructor
@@ -50,7 +50,7 @@ private:
 	int health_;
 	int radiation_;
 	int stimpak_;
-	int radaway_;
+	int radAway_;
 	Outfit* outfit_;
 	Weapon* weapon_;
 

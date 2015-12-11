@@ -2,19 +2,22 @@
 #define _OUTFIT_H
 
 #include "Item.h"
+#include "Dweller.h"
 
 class Outfit :public Item{
 
 public:
 
 	//Constructor
-	Outfit(const string& name, const int& durability, const int& special);
+	Outfit(const string& name = "", const int& durability = 0, const int& special = 0);
 
 	//Destructor
 	virtual ~Outfit();
 
 
 	virtual const int getSPECIAL();
+
+	virtual void receiveDamage(const int& damage);
 
 private:
 
