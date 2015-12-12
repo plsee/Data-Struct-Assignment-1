@@ -3,13 +3,11 @@
 
 #include "GameObject.h"
 #include "Vec2D.h"
-#include "Item.h"
 #include "Weapon.h"
 #include "Outfit.h"
 
 
-
-class Dweller :public GameObject{
+class Dweller : public GameObject{
 
 public:
 

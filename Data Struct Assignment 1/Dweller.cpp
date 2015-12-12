@@ -29,30 +29,10 @@ Dweller::~Dweller(){
 
 const int Dweller::getSPECIAL(){
 
-	int finalSpecial = SPECIAL_ + outfit_->getSPECIAL();
-
-	int specialValues[7];
-	
-	if (finalSpecial >= 10000000){
-
-		return 9999999;
-
-	}
-	else {
-		for (int i = 0; i < 7; i++){
-
-			specialValues[i] = finalSpecial % 10;
-			finalSpecial /= 10;
-
-		}
-		for (int i = 0; i < 7; i++){
-
-			finalSpecial += specialValues[i] * pow(10, i);
-
-
-		}
-
-	}
+    int finalSpecial = 0;
+  
+    
+    
 
 	return finalSpecial;
 
@@ -123,8 +103,12 @@ void Dweller::receiveRadDamage(const int& radiation){
 
 void Dweller::receiveEquipmentDamage(const int& durability){
 
-	outfit_->receiveDamage(durability);
-	weapon_->receiveDamage(durability / 2);
+    if (outfit_){
+        outfit_->receiveDamage(durability);
+    }
+    if (weapon_){
+        weapon_->receiveDamage(durability / 2);
+    }
 
 }
 
@@ -138,9 +122,7 @@ void Dweller::addStimpak(const int& stimpak){
 
 void Dweller::addRadAway(const int& radAway){
 
-
-	radAway_ + radAway;
-
+	radAway_ += radAway;
 
 }
 

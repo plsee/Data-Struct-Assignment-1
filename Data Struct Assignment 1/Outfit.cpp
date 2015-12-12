@@ -21,7 +21,7 @@ Outfit::~Outfit(){
 const int Outfit::getSPECIAL(){
 
 
-	return kSPECIAL;
+    return kSPECIAL;
 
 
 }
