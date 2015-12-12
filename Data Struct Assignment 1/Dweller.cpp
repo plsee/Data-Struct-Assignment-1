@@ -29,12 +29,39 @@ Dweller::~Dweller(){
 
 const int Dweller::getSPECIAL(){
 
-    int finalSpecial = 0;
-  
-    
-    
+    int totalSpecial = 0;
+    int dwellerSpecial = SPECIAL_;
+   
+    if (outfit_){
+        
+        int outfitSpecial = outfit_->getSPECIAL();
+        for (int i = 0; i < 7; i++){
 
-	return finalSpecial;
+            if ((dwellerSpecial % 10) + (outfitSpecial % 10) >= 10){
+
+                totalSpecial += 9 * pow(10, i);
+
+
+            }
+            else{
+
+                totalSpecial += ((dwellerSpecial % 10) + (outfitSpecial % 10)) * pow(10, i);
+
+            }
+            
+            outfitSpecial /= 10;
+            dwellerSpecial /= 10;
+
+        }
+      
+    }
+    else{
+
+        totalSpecial = dwellerSpecial;
+
+    }
+
+    return totalSpecial;
 
 }
 
