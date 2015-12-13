@@ -25,13 +25,17 @@ Weapon::~Weapon(){
 
 const int Weapon::getAttackDmg(){
 
-	return kAttackDmg;
+    if (durability_ > 0){
+        return kAttackDmg;
+    }
+    else{
+        return 1;
+    }
 
 }
 
 void Weapon::receiveDamage(const int& damage){
 
-	durability_ -= damage;
-
+	durability_ -= damage / 2;
 
 }

@@ -134,7 +134,7 @@ void Dweller::receiveEquipmentDamage(const int& durability){
         outfit_->receiveDamage(durability);
     }
     if (weapon_){
-        weapon_->receiveDamage(durability / 2);
+        weapon_->receiveDamage(durability);
     }
 
 }
