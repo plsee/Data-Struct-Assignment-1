@@ -1,3 +1,18 @@
+/****************************************************************************************/
+/*!
+
+\file Dweller.h
+\Author Wong Keng Han Ashley
+\par 155135S@mymail.nyp.edu.sg
+\brief
+
+Class to Difine a Dweller
+
+*/
+/****************************************************************************************/
+
+
+
 #ifndef _DWELLER_H
 #define _DWELLER_H
 

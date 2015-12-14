@@ -1,24 +1,9 @@
-﻿Build started 12/13/2015 12:09:35 PM.
-     1>Project "C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dweller.cpp Weapon.cpp
-         Weapon.cpp
-         Dweller.cpp
-     1>c:\users\ashley\desktop\data-struct-assignment-1\data struct assignment 1\dweller.cpp(42): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\ashley\desktop\data-struct-assignment-1\data struct assignment 1\dweller.cpp(48): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Debug\Data Struct Assignment 1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Debug\Data Struct Assignment 1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Debug\Data Struct Assignment 1.lib" /MACHINE:X86 Debug\compileCheck.obj
-         Debug\Dweller.obj
-         Debug\GameObject.obj
-         Debug\Item.obj
-         Debug\main.obj
-         Debug\Outfit.obj
-         Debug\Vec2D.obj
-         Debug\Weapon.obj
-         Data Struct Assignment 1.vcxproj -> C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Debug\Data Struct Assignment 1.exe
-     1>Done Building Project "C:\Users\Ashley\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" (Build target(s)).
+﻿Build started 12/14/2015 2:22:57 PM.
+     1>Project "C:\Users\155135S\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         Data Struct Assignment 1.vcxproj -> C:\Users\155135S\Desktop\Data-Struct-Assignment-1\Debug\Data Struct Assignment 1.exe
+     1>Done Building Project "C:\Users\155135S\Desktop\Data-Struct-Assignment-1\Data Struct Assignment 1\Data Struct Assignment 1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.40
+Time Elapsed 00:00:00.04

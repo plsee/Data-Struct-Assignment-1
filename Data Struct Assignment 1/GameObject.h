@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*!
+
+\file GameObject.h
+\Author Wong Keng Han Ashley
+\par 155135S@mymail.nyp.edu.sg
+\brief
+
+Class to Difine a Game Object
+
+*/
+/****************************************************************************************/
+
 #ifndef _GAMEOBJECT_H
 #define _GAMEOBJECT_H
 
@@ -5,7 +18,16 @@
 using std::string;
 
 
-//Pure virtual class
+/****************************************************************************************/
+/*!
+
+\brief
+
+Virtual class to define a Game Object
+
+*/
+/****************************************************************************************/
+
 class GameObject
 {
 public:
